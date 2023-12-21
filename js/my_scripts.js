@@ -1,21 +1,23 @@
-document.addEventListener("DOMContentLoaded",
-    function (event) {
-                function show(event) {
-                    this.textContent = "showed" ;
-                    console.log(event);
-                    var l1 = document.getElementById("l1");
-                    var l2 = document.getElementById("l2");
-                    var l3 = document.getElementById("l3");
-                    var l4 = document.getElementById("l4");
+function click1() {
+    var lab01 = "../lab04/report/index.html";
+    var path = '<iframe src="' + lab01 + '"></iframe>'
+    document.getElementById("file").innerHTML = path;
+}
+function click2() {
+    var lab02 = "../lab04/report/index.html";
+    var path = '<iframe src="' + lab02 + '"></iframe>'
+    document.getElementById("file").innerHTML = path;
+}
+function click3() {
+    var lab03 = "../lab04/report/indexl3.html";
+    var path = '<iframe src="' + lab03 + '"></iframe>'
+    document.getElementById("file").innerHTML = path;
+}
+function click4() {
+    var lab04 = "../lab04/report/indexl4.html";
+    var path = '<iframe src="' + lab04 + '"></iframe>'
+    document.getElementById("file").innerHTML = path;
+}
 
-                    var message1 = "<h2>HTML" + l1 + "</h2>";
-                    var message2 = "<h2>CSS" + l2 + "</h2>";
-                    var message3 = "<h2>BOOTSTRAP" + l3 + "</h2>";
-                    var message4 = "<h2>JAVASCRIPT" + l4 + "</h2>";
-
-                    document.getElementById("works").innerHTML = message1;
-                    document.getElementById("works").innerHTML = message2;
-                    document.getElementById("works").innerHTML = message3;
-                    document.getElementById("works").innerHTML = message4;
-                }
-    })
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]')
+);
