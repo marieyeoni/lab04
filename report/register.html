@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입 페이지</title>
+</head>
+<body>
+<h3>취업 정보 계정 만들기</h3>
+<p>* 필수 입력 항목</p>
+<p>기본 정보</p>
+<form name="resume" method="post">
+    <div id="txt_input">
+        <label for="name" style="display: inline-block;">이 름*</label>
+        <input type="text" id="name" name="name" size="8"><br>
+        <label for="email" style="display: inline-block;">이메일*</label>
+        <input type="email" id="email" name="email" size="15" placeholder="id@domain_name"><br>
+        <label for="pwd" style="display: inline-block;">암호*</label>
+        <input type="password" id="pwd" name="pwd" size="12"><br>
+        <label for="password" style="display: inline-block;">암호 확인*</label>
+        <input type="password" id="password" name="password" size="12"><br>
+        <label for="phone" style="display: inline-block;">모바일 폰*</label>
+        <input type="tel" name="phone" id="phone" size="13" placeholder="010-0000-0000"><br>
+        <label for="homepg" style="display: inline-block;">개인 홈페이지</label>
+        <input type="url" name="homepg" id="homepg" size="30" placeholder="http://"><br>
+        <label for="address" style="display: inline-block;">주소*</label>
+        <input type="text" name="address" id="address" size="30">
+    </div>
+    <p>학 력</p>
+    <div id="grade">
+        <label for="sch_name" style="display: inline-block;">학교 명*</label>
+        <input type="text" id="sch_name" name="name" size="12"><br>
+        <label for="maj_name" style="display: inline-block;">전 공*</label>
+        <input type="text" id="maj_name" name="name" size="12"><br>
+        <label>졸업 여부*
+            <select name="grd" id="grd">
+                <option value="0">---선택---</option>
+                <option value="1">졸업예정</option>
+                <option value="2">졸업</option>
+            </select>
+        </label><br>
+        <label>졸업(예정)일
+            <input type="date" name="grad"></label>
+    </div>
+    <p>업무 경력</p>
+    <div id="com">
+    <label for="com_name" style="display: inline-block;">근무업체명</label>
+        <input type="text" id="com_name" name="name" size="20"><br>
+    <label for="position" style="display: inline-block;">직 위</label>
+        <input type="text" id="position" name="name" size="10"><br>
+    <label for="comments" style="display: inline-block;">담당 업무
+        <textarea id="comments" name="comments" cols="80" rows="10" placeholder="이전 업체에서 담당한 업무를 기술하시오."></textarea></label><br>
+    <label style="display: inline-block;">근무년수
+        <input type="number" min="0" max="10" step="0.5">년</label>
+    </div>
+    <div class="c1" id="prod">
+        <p>자기소개서</p>
+    </div>
+    <div id="file">
+        <p style="display: inline-block;">첨부파일
+            <input type="file" value="파일 선택"></p>
+    </div>
+    <div style="margin-left: 200px">
+    <input type="submit" value="제 출">
+    <input type="reset" value="재작성"></div>
+</form>
+</body>
+</html>
