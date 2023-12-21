@@ -15,6 +15,57 @@
 .card:hover {
     color: #58151c;
 }
-#works {
-
+h1 {
+     font-family: "Cooper Black";
+    font-size: xx-large;
+}
+h4 {
+    font-family: 'Cooper Black';
+    font-weight: bold;
+}
+#part2 {
+    color: white;
+}
+span {
+    color: white;
+}
+#part2 a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+#part2 img {
+    width: 100%;
+}
+#me {
+    width:96%;
+    margin:auto;
+}
+.btn-group a {
+    text-decoration: none;
+    color: darkred;
+}
+table {
+     text-align: center
+}
+#part2 p {
+     font-size: xxx-large;
+}
+#home {
+    font-family: 'Cooper Black';
+}
+#ol {
+    color: grey;
+}
+#card {
+     list-style-type: '\2665';
+}
+h2 {
+    font-weight: bold;
+}
+#part2 div.row {
+    text-align: center;
+}
+#hh {
+     font-size: xx-small;
 }

@@ -15,7 +15,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-sm navbar-dark bg-black">
             <div class="container-fluid">
-                <a class="navbar-brand fw-bold" style="font-family: 'Cooper Black'" href="#">HOME</a>
+                <a class="navbar-brand fw-bold" id="home" href="#">HOME</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my_navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,6 +29,8 @@
                             <a class="nav-link" href="#interests">Interests</a></li>
                         <li class="nav-item">
                             <a class="nav-link" href="#favorites">Favorites</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Works</a>
                             <ul class="dropdown-menu">
@@ -38,8 +40,6 @@
                                 <li><a class="dropdown-item" href="#l4">LAB04</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,9 +50,9 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-8 col-xl-7 col-xxl-3">
                         <div class="my-5 text-xl-start text-center">
-                            <h1 class="display-1 fw-bolder text-white mb-3" style="font-family: 'Cooper Black'">CHOI<br>
+                            <h1 class="display-1 fw-bolder text-white mb-3">CHOI<br>
                                 <span class="fw-bolder text-white mb-3">SEOYEON</span><br>
-                                <span class="lead fw-normal text-white-50 mb-4" style="font-size: x-large;"> </span></h1><br>
+                                <span class="lead fw-normal text-white-50 mb-4"> </span></h1><br>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                                 <a class="btn btn-outline text-white btn-md px-4 me-sm-3" href="https://www.instagram.com/0tjdxd_">INSTAGRAM ></a>
                                 <a class="btn btn-outline text-white btn-md px-4" href="#outlook">START ></a>
@@ -66,30 +66,30 @@
         <section>
             <article>
                 <div class="container my-5 py-5" id="outlook">
-                    <h4 style="font-weight: bold; font-family: 'Cooper Black'">Let's become adults who recognize how precious and meaningful every moment is, and through this, enrich our daily lives.</h4>
-                    <div style="color: grey">
+                    <h4>Let's become adults who recognize how precious and meaningful every moment is, and through this, enrich our daily lives.</h4>
+                    <div id="ol">
                         모든 순간이 얼마나 소중하고 의미 있는지를 인식하고, 이를 통해 일상을 더욱 풍요롭게 하는 성인이 되자.
                     </div>
                 </div>
             </article>
             <article>
                 <div id="about" class="container py-5">
-                    <h1 style="font-weight: bold">About Me</h1><br>
+                    <h2>About Me</h2><br>
                     <div class="card" style="border: 5px dotted #b6d4fe; padding: 20px;">
                         <div class="row">
                             <div class="col-sm-5">
-                                <img class="card-img-top rounded-5 my-4" src="../lab04/images/second.jpg" style="width:96%; margin:auto;" alt="...">
+                                <img class="card-img-top rounded-5 my-4" src="../lab04/images/second.jpg" alt="..." id="me">
                             </div>
                             <div class="col-sm-7">
                                 <div class="card-body">
                                     <div class="card-text mt-2">
-                                        <ul class="container">
-                                            <li style="list-style-type: '\2665'">이름: 최서연</li>
-                                            <li style="list-style-type: '\2665'">출생: 2003. 08. 01</li>
-                                            <li style="list-style-type: '\2665'"> 국적: 대한민국</li>
-                                            <li style="list-style-type: '\2665'"> MBTI: ISTP</li>
-                                            <li style="list-style-type: '\2665';"> 학력: 동덕여대 재학</li>
-                                            <li style="list-style-type: '\2665';"> 전공: 정보통계학</li>
+                                        <ul class="container" id="card">
+                                            <li>이름: 최서연</li>
+                                            <li>출생: 2003. 08. 01</li>
+                                            <li> 국적: 대한민국</li>
+                                            <li> MBTI: ISTP</li>
+                                            <li> 학력: 동덕여대 재학</li>
+                                            <li> 전공: 정보통계학</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -99,8 +99,8 @@
                 </div>
             </article>
             <article>
-                <div class="container py-5" id="interests">
-                    <h2 style="font-weight: bold;">Information Statistics</h2>
+                <div class="container my-5 py-5" id="interests">
+                    <h2>Information Statistics</h2>
                     <p class="fw-bold">관심 분야</p>
                     <p class="mb-4" style="font-size: small">동덕여자대학교 정보통계학과의 교육목적은 통계적 이론과 다양한 통계적 방법론을 바탕으로 현대 사회에서 발생하는 복잡하고 다양한 데이터들을 구성, 요약, 정리, 분석, 지식화하여 객관적이고 과학적인 의사결정을 할 수 있는 데이터분석 전문가를 양성하는 데 있다.<br>
                         또한 정보시스템 개발을 위한 프로그래밍 능력과 정보시스템 및 정보통식 네트워크를 관리할 수 있는 능력을 가진 정보 시스템 개발&middot;관리자를 양성하는 데 있다.</p>
@@ -110,42 +110,42 @@
                     </div><br>
                     <div class="btn-group btn-group-sm text-center d-flex">
                         <button type="button" class="btn btn-outline-secondary flex-fill">
-                            <a href="https://infostat.dongduk.ac.kr" style="text-decoration: none; color: darkred;">> 학과 홈페이지</a>
+                            <a href="https://infostat.dongduk.ac.kr">> 학과 홈페이지</a>
                         </button>
                         <button type="button" class="btn btn-outline-secondary flex-fill">
-                            <a href="https://heekim.dongduk.ac.kr" style="text-decoration: none; color: darkred;">>  교수진 홈페이지</a>
+                            <a href="https://heekim.dongduk.ac.kr">>  교수진 홈페이지</a>
                         </button>
                         <button type="button" class="btn btn-outline-secondary flex-fill">
-                            <a href="https://youtu.be/H598lrc7SIw?si=G0y_MT2x7Ud4y4Xc" style="text-decoration: none; color: darkred;">>  학과 전망</a>
+                            <a href="https://youtu.be/H598lrc7SIw?si=G0y_MT2x7Ud4y4Xc">>  학과 전망</a>
                         </button>
                     </div>
                     <p class="mt-5">DataScientist</p>
-                    <table class="table mb-5" style="text-align: center">
+                    <table class="table mb-5">
                         <thead>
                           <tr> <th>분야</th> <th>마케팅</th> <th>제조</th> <th>의료</th></tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td style="font-weight: bold;">분석</td> <td>고객 구매 패턴</td> <td>생산된 제품의 결함률</td> <td>질병 걸릴 가능성</td></tr>
+                                <td>분석</td> <td>고객 구매 패턴</td> <td>생산된 제품의 결함률</td> <td>질병 걸릴 가능성</td></tr>
                             <tr>
-                                <td style="font-weight: bold;">효과</td> <td>적합한 마케팅 전략 수립</td> <td>생산 효율성 높임</td> <td>조기 진단, 치료</td></tr>
+                                <td>효과</td> <td>적합한 마케팅 전략 수립</td> <td>생산 효율성 높임</td> <td>조기 진단, 치료</td></tr>
                         </tbody>
                     </table>
                 </div>
             </article>
-            <article class="bg-black pt-5">
+        </section>
+        <section id="part2">
+            <article class="bg-black mt-5 py-5">
                 <div class="container px-5">
                     <div class="text-center p-5">
-                        <p class="fw-bolder mb-4" id="favorites" style="font-size: xxx-large; color:white;">FAVORITES</p>
-                        <hr style="color: white;"><br><br>
+                        <p class="fw-bolder mb-4" id="favorites">FAVORITES</p>
+                        <hr><br><br>
                         <div class="text-center">
-                            <a class="btn btn-outline text-white btn-md p-5" href="#fff" style="font-size: large; font-weight: bold">V<br>V<br>V</a>
+                            <a class="btn btn-outline btn-md p-5 text-white" href="#fff">V<br>V<br>V</a>
                         </div>
                     </div>
                 </div>
-            </article>
-            <article class="pt-3 pb-5 bg-black">
-                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div id="demo" class="carousel slide pt-4" data-bs-ride="carousel">
                     <!--Indicators/dots-->
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -155,61 +155,61 @@
                     <!--The slideshow/carousel-->
                     <div class="carousel-inner" id="fff">
                         <div class="carousel-item active">
-                            <p class="fs-3 text-center text-white">여 행</p><br>
-                            <div class="row" style="text-align: center">
+                            <div class="fs-3 text-center">여 행</div><br>
+                            <div class="row">
                                 <div class="col-sm-4">
-                                    <a href="https://youtu.be/eGx3H1SVWDk?si=61Xf9fo20WzPRCZq" style="text-decoration: none; text-align: center; color:black;">
-                                        <img src="../lab04/images/sp.jpg" onmouseover="this.src='../lab04/images/sp2.jpg'" onmouseout="this.src='../lab04/images/sp.jpg'" class="d-block" style="width: 100%" alt="..."><span class="text-white">마드리드</span>
+                                    <a href="https://youtu.be/eGx3H1SVWDk?si=61Xf9fo20WzPRCZq">
+                                        <img src="../lab04/images/sp.jpg" onmouseover="this.src='../lab04/images/sp2.jpg'" onmouseout="this.src='../lab04/images/sp.jpg'" class="d-block" alt="..."><span>마드리드</span>
                                     </a>
                                 </div>
                                 <div class="col-sm-4">
-                                    <a href="https://youtu.be/r2dXQrLwM1Q?si=wnsW-vzEh9_9XGZ0" style="text-decoration: none; text-align: center; color:black;">
-                                        <img src="../lab04/images/muc.jpg" onmouseover="this.src='../lab04/images/muc2.jpg'" onmouseout="this.src='../lab04/images/muc.jpg'" class="d-block" style="width: 100%" alt="..."><span class="text-white">뮌 헨</span>
+                                    <a href="https://youtu.be/r2dXQrLwM1Q?si=wnsW-vzEh9_9XGZ0">
+                                        <img src="../lab04/images/muc.jpg" onmouseover="this.src='../lab04/images/muc2.jpg'" onmouseout="this.src='../lab04/images/muc.jpg'" class="d-block" alt="..."><span>뮌 헨</span>
                                     </a>
                                 </div>
                                 <div class="col-sm-4">
-                                    <a href="https://youtu.be/N_g3AiXF-q8?si=MKH9AZOt6F4NHWqu" style="text-decoration: none; text-align: center; color:black;">
-                                        <img src="../lab04/images/do.jpg" onmouseover="this.src='../lab04/images/kor.jpg'" onmouseout="this.src='../lab04/images/do.jpg'" class="d-block" style="width: 100%" alt="..."><span class="text-white">캠 핑</span>
+                                    <a href="https://youtu.be/N_g3AiXF-q8?si=MKH9AZOt6F4NHWqu">
+                                        <img src="../lab04/images/do.jpg" onmouseover="this.src='../lab04/images/kor.jpg'" onmouseout="this.src='../lab04/images/do.jpg'" class="d-block" alt="..."><span>캠 핑</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <p class="fs-3 text-center text-white">형 원</p><br>
-                            <div class="row" style="text-align: center">
+                            <div class="fs-3 text-center text-white">형 원</div><br>
+                            <div class="row">
                                 <div class="col-sm-4">
-                                    <a href="https://www.instagram.com/coenffl" style="text-decoration: none; text-align: center; color:black;">
-                                        <img src="../lab04/images/cc.jpg" onmouseover="this.src='../lab04/images/chw.jpg'" onmouseout="this.src='../lab04/images/cc.jpg'" class="d-block" style="width: 100%" alt="..."><span class="text-white">정 보</span>
+                                    <a href="https://www.instagram.com/coenffl">
+                                        <img src="../lab04/images/cc.jpg" onmouseover="this.src='../lab04/images/chw.jpg'" onmouseout="this.src='../lab04/images/cc.jpg'" class="d-block" alt="..."><span>정 보</span>
                                     </a>
                                     <div class="carousel-caption"><p></p></div>
                                 </div>
                                 <div class="col-sm-4">
-                                    <a href="https://youtube.com/@lifewithoutaplan" style="text-decoration: none; text-align: center; color:black;">
-                                        <img src="../lab04/images/chaec.jpg" onmouseover="this.src='../lab04/images/ca.jpg'" onmouseout="this.src='../lab04/images/chaec.jpg'" class="d-block" style="width: 100%" alt="..."><span class="text-white" style="font-size: xx-small">계획이 없다고 엉망인 인생은 아니니까</span>
+                                    <a href="https://youtube.com/@lifewithoutaplan">
+                                        <img src="../lab04/images/chaec.jpg" onmouseover="this.src='../lab04/images/ca.jpg'" onmouseout="this.src='../lab04/images/chaec.jpg'" class="d-block" alt="..."><span id="hh">계획이 없다고 엉망인 인생은 아니니까</span>
                                     </a>
                                     <div class="carousel-caption"><p></p></div>
                                 </div>
                                 <div class="col-sm-4">
-                                    <a href="https://www.youtube.com/channel/UCZvCP6sWj75MwpUP4LVtpNw" style="text-decoration: none; text-align: center; color:black;">
-                                        <img src="../lab04/images/sh.jpg" onmouseover="this.src='../lab04/images/cm.jpg'" onmouseout="this.src='../lab04/images/sh.jpg'"  class="d-block" style="width: 100%" alt="..."><span class="text-white">노 래</span>
+                                    <a href="https://www.youtube.com/channel/UCZvCP6sWj75MwpUP4LVtpNw">
+                                        <img src="../lab04/images/sh.jpg" onmouseover="this.src='../lab04/images/cm.jpg'" onmouseout="this.src='../lab04/images/sh.jpg'"  class="d-block" alt="..."><span>노 래</span>
                                     </a>
                                     <div class="carousel-caption"><p></p></div>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <p class="fs-3 text-center text-white">기 타</p><br>
-                            <div class="row" style="text-align: center">
+                            <div class="fs-3 text-center">기 타</div><br>
+                            <div class="row">
                                 <div class="col-sm-4">
-                                    <img src="../lab04/images/bed.jpg" class="d-block" style="width: 100%" alt="..."><span class="text-white">침 대</span>
+                                    <img src="../lab04/images/bed.jpg" class="d-block" alt="..."><span>침 대</span>
                                 </div>
                                 <div class="col-sm-4">
-                                    <a href="https://youtu.be/0oJ6uZqBm7w?si=puogC9A4TqXUkY3w" style="text-decoration: none; text-align: center; color:black;">
-                                        <img src="../lab04/images/chri.jpg" onmouseover="this.src='../lab04/images/christ.jpg'" onmouseout="this.src='../lab04/images/chri.jpg'" class="d-block" style="width: 100%" alt="..."><span class="text-white">크리스마스</span>
+                                    <a href="https://youtu.be/0oJ6uZqBm7w?si=puogC9A4TqXUkY3w">
+                                        <img src="../lab04/images/chri.jpg" onmouseover="this.src='../lab04/images/christ.jpg'" onmouseout="this.src='../lab04/images/chri.jpg'" class="d-block" alt="..."><span>크리스마스</span>
                                     </a>
                                 </div>
                                 <div class="col-sm-4">
-                                    <img src="../lab04/images/food.jpg" class="d-block" style="width: 100%" alt="..."><span class="text-white">음 식</span>
+                                    <img src="../lab04/images/food.jpg" class="d-block" alt="..."><span>음 식</span>
                                 </div>
                             </div>
                         </div>
@@ -217,25 +217,25 @@
                 </div>
             </article>
             <article class="bg-black">
-                <div class="container py-5">
-                    <div class="text-center mb-5">
-                        <p class="fw-bolder" style="font-size: xxx-large; color: white;">My Works</p>
-                        <hr style="color: white;">
+                <div class="py-5">
+                    <div class="container text-center mb-5">
+                        <p class="fw-bolder">My Works</p>
+                        <hr>
                     </div>
                     <div class="btn-group btn-group-sm text-center d-flex mb-5">
-                        <input type="button" value="LAB01" class="btn btn-outline-secondary flex-fill" onclick="click1()" id="l1">
-                        <input type="button" value="LAB02" class="btn btn-outline-secondary flex-fill" onclick="click2()" id="l2">
-                        <input type="button" value="LAB03" class="btn btn-outline-secondary flex-fill" onclick="click3()" id="l3">
-                        <input type="button" value="LAB04" class="btn btn-outline-secondary flex-fill" onclick="click4()" id="l4">
+                        <input type="button" value="LAB01" class="btn btn-outline-none flex-fill text-white" onclick="click1()" id="l1">
+                        <input type="button" value="LAB02" class="btn btn-outline-none flex-fill text-white" onclick="click2()" id="l2">
+                        <input type="button" value="LAB03" class="btn btn-outline-none flex-fill text-white" onclick="click3()" id="l3">
+                        <input type="button" value="LAB04" class="btn btn-outline-none flex-fill text-white" onclick="click4()" id="l4">
                     </div>
-                    <div id="file" class="container bg-white"></div>
+                    <div id="file" class="bg-white"></div>
                 </div>
             </article>
             <article class="bg-black">
                 <div class="container py-5">
                     <div class="text-center mb-5">
-                        <p class="fw-bolder" id="contact" style="font-size: xxx-large; color: white;">Contact</p>
-                        <hr style="color: white;">
+                        <p class="fw-bolder" id="contact">Contact</p>
+                        <hr>
                     </div>
                     <form class="was-validated" action="...">
                         <div class="mb-3 mt-5">
@@ -249,7 +249,7 @@
                             <div class="invalid-feedback">메일 형식으로 쓰세요:(</div>
                         </div>
                         <div class="mb-3">
-                            <label for="comments">Email</label>
+                            <label for="comments">Comments</label>
                             <input type="text" class="form-control" id="comments" placeholder="Enter comments" required>
                             <div class="invalid-feedback">comment 없으면 답변 없어요!!!!!</div>
                         </div>
